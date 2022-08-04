@@ -1,0 +1,16 @@
+
+GIT 
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/baruc99/base-de-sockets.git
+git push -u origin main
+
+
+heroku
+
+$ heroku git:clone -a serversocketbs 
+$ cd serversocketbs
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
